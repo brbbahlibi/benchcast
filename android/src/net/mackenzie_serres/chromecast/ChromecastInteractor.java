@@ -15,8 +15,7 @@ import com.google.android.gms.common.api.Status;
 import java.io.IOException;
 
 /**
- * Class for handline all interactions with a Chromecast for the purposes of playing a game that an android
- * app connects to to play.
+ * Class for handline all interactions with a Chromecast
  * <p/>
  * User: andrew
  * Date: 11/01/15
@@ -41,7 +40,6 @@ public class ChromecastInteractor {
     private final Activity activity;
     private final String receiverAppId;
     private final String nameSpace;
-    private final GameController gameController;
     private final MediaRouter mediaRouter;
     private final MediaRouteSelector mediaRouteSelector;
 
@@ -62,20 +60,16 @@ public class ChromecastInteractor {
      * When messages are received it will parse them and then update the game accordingly.
      *
      * @param activity       - the Activity running the Game
-     * @param gameController - the controller that is managing the game logic
      */
     public ChromecastInteractor(final Activity activity, final String receiverAppId, final String nameSpace,
-                                final MediaRouteSelector mediaRouteSelector, final GameController gameController) {
+                                final MediaRouteSelector mediaRouteSelector) {
         this.activity = activity;
         this.receiverAppId = receiverAppId;
         this.nameSpace = nameSpace;
         this.mediaRouteSelector = mediaRouteSelector;
-        this.gameController = gameController;
 
         // Configure Cast device discovery
         mediaRouter = MediaRouter.getInstance(activity.getApplicationContext());
-
-        gameController.setChromecastInteractor(this);
     }
 
     /**
@@ -123,7 +117,6 @@ public class ChromecastInteractor {
      */
     private void connect(final CastDevice selectedDevice) {
         try {
-            gameController.event(CHROMECAST_EVENT.CONNECTING);
             Cast.CastOptions.Builder apiOptionsBuilder = Cast.CastOptions.builder(selectedDevice, castListener);
 
             apiClient = new GoogleApiClient.Builder(activity)
@@ -154,7 +147,6 @@ public class ChromecastInteractor {
             apiClient = null;
         }
 
-        gameController.event(CHROMECAST_EVENT.DISCONNECTED);
         waitingForReconnect = false;
     }
 
@@ -169,13 +161,11 @@ public class ChromecastInteractor {
             if (apiClient == null) {
                 // We got disconnected while this runnable was pending execution.
                 Log.d(TAG, "We got disconnected while trying to connect");
-                gameController.event(CHROMECAST_EVENT.DISCONNECTED);
                 return;
             }
 
             if (waitingForReconnect) {
                 waitingForReconnect = false;
-                gameController.event(CHROMECAST_EVENT.CONNECTING); // reconnecting
 
                 // Check if the receiver app is still running
                 if ((connectionHint != null) && connectionHint.getBoolean(Cast.EXTRA_APP_NO_LONGER_RUNNING)) {
@@ -187,8 +177,6 @@ public class ChromecastInteractor {
                     createCastMessageChannel();
                 }
             } else {
-                gameController.event(CHROMECAST_EVENT.CONNECTED);
-
                 Log.d(TAG, "New connection");
                 launchReceiver();
             }
@@ -197,7 +185,6 @@ public class ChromecastInteractor {
         @Override
         public void onConnectionSuspended(int cause) {
             Log.d(TAG, "onConnectionSuspended");
-            gameController.event(CHROMECAST_EVENT.CONNECTION_SUSPENDED);
             waitingForReconnect = true;
         }
     }
@@ -271,8 +258,6 @@ public class ChromecastInteractor {
     private void setCastCallbacks() {
         try {
             Cast.CastApi.setMessageReceivedCallbacks(apiClient, castMessageCallbacks.getNamespace(), castMessageCallbacks);
-
-            gameController.event(CHROMECAST_EVENT.READY);
         } catch (IOException e) {
             Log.e(TAG, "Exception while creating channel", e);
         }
@@ -313,7 +298,6 @@ public class ChromecastInteractor {
          */
         @Override
         public void onMessageReceived(CastDevice castDevice, String namespace, String message) {
-            gameController.message(message);
         }
     }
 

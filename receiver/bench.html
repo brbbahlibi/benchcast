@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <script src="timestamp.js"></script>
+    <script src="bench.js"></script>
+    <script src="castReceiverController.js"></script>
+
+    <!-- Scale the canvas to fill the screen, independently of the "real" size in pixels for rendering -->
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            margin: 0;
+            padding: 0;
+            background: #999999;
+        }
+
+        #messageboard {
+            width: 100%;
+            height: 50px;
+            text-align: center;
+            vertical-align: bottom;
+            position: fixed;
+            bottom: 20px;
+            font-size: 50px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+    window.message = function message(text) {
+        window.messageboard.innerHTML = (text);
+    };
+
+    // Once all loaded before creating the canvas
+    window.onload = function () {
+        window.messageboard = document.getElementById('messageboard');
+
+        var canvas = document.getElementById('bench');
+        window.bench = new Bench(canvas);
+
+        CastController();
+
+        console.log("Benchcast Version: 1.0.0");
+
+        // Start drawing loop
+        window.bench.update();
+    };
+</script>
+
+<canvas id='bench' width="960" height="540">Your browser does not support canvas - go get Chrome!</canvas>
+<div id="messageboard">BenchCast</div>
+
+</body>
+</html>

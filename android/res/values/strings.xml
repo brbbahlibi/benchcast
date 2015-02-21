@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name" translatable="false">PongCast</string>
-    <string name="app_id" translatable="false">2E9013FB</string>
+    <string name="app_name" translatable="false">BenchCast</string>
+
+	<!-- Get your Chromecast applications app_id from the console at https://cast.google.com/publish/#/overview -->
+    <string name="app_id" translatable="false">F49FA7A3</string>
 	<!-- This must match the one defined in the receiver.html -->
-    <string name="namespace" translatable="false">urn:x-cast:net.mackenzie_serres.pongcast</string>
+    <string name="namespace" translatable="false">urn:x-cast:net.mackenzie_serres.benchcast</string>
 
 	<!-- Translatable strings below -->
 	<string name="language">Default</string>
