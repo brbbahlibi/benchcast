@@ -38,76 +38,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="934b33c7-f5f4-4567-90f1-332221113ecc" name="Default" comment="Fixed problem with vertical scrolling of court when up/down keys used">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../receiver/bench.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../receiver/bench.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/benchcast.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../DESIGN.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pongcast.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pongcast.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-en/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-es/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-pt/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/chromecast/GameController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/chromecast/RepeatListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/pongcast/PongController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/pongcast/PongControllerView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon1280x1280.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../art/pongcasticon96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../deployReceiver.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/keyboardController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/module_receiver.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/out.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/paddle.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/point.mp3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/pong.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/pong.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/pong.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/timestamp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../receiver/timestamp_template.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/pongcast/MainActivity.java" afterPath="$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary" afterPath="$PROJECT_DIR$/../CastCompanionLibrary" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xxxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/BaseCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/BaseCastManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/CastCompanionLibrary.iml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/CastCompanionLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/chromecast/ChromecastInteractor.java" afterPath="$PROJECT_DIR$/src/net/mackenzie_serres/chromecast/ChromecastInteractor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/DataCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/DataCastManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java" afterPath="$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/exceptions/NoConnectionException.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/exceptions/NoConnectionException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/tracks/OnTracksSelectedListener.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/tracks/OnTracksSelectedListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/README.md" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/utils/Utils.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/utils/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/player/VideoCastControllerFragment.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/player/VideoCastControllerFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/VideoCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/VideoCastManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android.iml" afterPath="$PROJECT_DIR$/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../receiver/castReceiverController.js" afterPath="$PROJECT_DIR$/../receiver/castReceiverController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../receiver/bench.html" afterPath="$PROJECT_DIR$/../receiver/bench.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/project.properties" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../receiver/receiver.iml" afterPath="$PROJECT_DIR$/../receiver/receiver.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/res/values/strings.xml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" afterPath="$PROJECT_DIR$/res/values-v11/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/res/values-v14/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pongcast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -186,21 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bench.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bench.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../receiver/bench.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.956522" vertical-offset="302" max-vertical-offset="1008">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21498372" vertical-offset="36" max-vertical-offset="1148">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.09475465" vertical-offset="0" max-vertical-offset="994">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -1441,10 +1376,10 @@
         <option value="$PROJECT_DIR$/res/values-v14/styles.xml" />
         <option value="$PROJECT_DIR$/src/net/mackenzie_serres/chromecast/ChromecastInteractor.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/../receiver/bench.html" />
         <option value="$PROJECT_DIR$/../receiver/bench.js" />
         <option value="$PROJECT_DIR$/../CastCompanionLibrary/res/layout/cast_activity.xml" />
         <option value="$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../receiver/bench.html" />
       </list>
     </option>
   </component>
@@ -1851,7 +1786,7 @@
       <workItem from="1422824394011" duration="3207000" />
       <workItem from="1422989823789" duration="4739000" />
       <workItem from="1424182417809" duration="25109000" />
-      <workItem from="1424353386246" duration="4965000" />
+      <workItem from="1424353386246" duration="5160000" />
     </task>
     <task id="LOCAL-00001" summary="Added xxxhdpi launcher icon">
       <created>1422830792568</created>
@@ -1863,7 +1798,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226251000" />
+    <option name="totallyTimeSpent" value="226446000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1902,7 +1837,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42536327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34406295" sideWeight="0.6068796" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34406295" sideWeight="0.6068796" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966975" sideWeight="0.52582496" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.65782493" order="2" side_tool="false" content_ui="tabs" />
@@ -1913,7 +1848,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37516513" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23390558" sideWeight="0.3906634" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4372523" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15191546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15191546" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24892704" sideWeight="0.7427056" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1993,7 +1928,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1008">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2028,7 +1965,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="980">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2269,14 +2208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../receiver/bench.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.956522" vertical-offset="302" max-vertical-offset="1008">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/android-sdk-mac_x86/extras/android/support/v7/mediarouter/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
@@ -2322,8 +2253,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mackenzie_serres/benchcast/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21498372" vertical-offset="36" max-vertical-offset="1148">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.21498372" vertical-offset="36" max-vertical-offset="1134">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../receiver/bench.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09475465" vertical-offset="0" max-vertical-offset="994">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>

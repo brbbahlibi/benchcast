@@ -10,7 +10,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import com.google.android.gms.cast.CastMediaControlIntent;
 import net.mackenzie_serres.chromecast.ChromecastInteractor;
-import net.mackenzie_serres.benchcast.R;
 
 /**
  * Main activity of the application
