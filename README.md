@@ -8,10 +8,16 @@ Folders
 * CastCompanionLibrary - see the section below, a library for interacting with Chromecast
 * receiver - custom chromecast receiver html, javascript, image and sound files
 
-Scripts
+Receiver
 ======
-deployReceiver.sh - this script just copies the ./receiver folder contents into my Google Drive folder which is
-where the receiver is hosted and found by the chromecast device for download.
+The receiver folder is in fact a git submodule representing the custom chromecast receiever.
+The hole repo for the receiver is: https://github.com/Mackenzie-Serres/benchcast-receiver
+
+I update the version of benchcast-receiver used here to a stable version marked with a tag on the
+gh-pages branch of that repo.
+
+The gh-pages branch of that repo is the version that is hosted on github, see https://pages.github.com/
+for an explanation of how to use them.
 
 Cloning with git submodules
 ======

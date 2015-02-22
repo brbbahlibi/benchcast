@@ -39,18 +39,7 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="934b33c7-f5f4-4567-90f1-332221113ecc" name="Default" comment="Fixed problem with vertical scrolling of court when up/down keys used">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary" afterPath="$PROJECT_DIR$/../CastCompanionLibrary" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/BaseCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/BaseCastManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/CastCompanionLibrary.iml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/CastCompanionLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/DataCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/DataCastManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/exceptions/NoConnectionException.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/exceptions/NoConnectionException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/tracks/OnTracksSelectedListener.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/tracks/OnTracksSelectedListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/README.md" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/utils/Utils.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/utils/Utils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/player/VideoCastControllerFragment.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/player/VideoCastControllerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/VideoCastManager.java" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/src/com/google/sample/castcompanionlibrary/cast/VideoCastManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/project.properties" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CastCompanionLibrary/res/values/strings.xml" afterPath="$PROJECT_DIR$/../CastCompanionLibrary/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pongcast.iws" />
@@ -1419,7 +1408,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../benchcast-receiver" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3574409" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -1744,7 +1733,7 @@
       <workItem from="1422824394011" duration="3207000" />
       <workItem from="1422989823789" duration="4739000" />
       <workItem from="1424182417809" duration="25109000" />
-      <workItem from="1424353386246" duration="6001000" />
+      <workItem from="1424353386246" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="Added xxxhdpi launcher icon">
       <created>1422830792568</created>
@@ -1756,7 +1745,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227287000" />
+    <option name="totallyTimeSpent" value="227434000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1780,7 +1769,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.65782493" order="5" side_tool="false" content_ui="tabs" />
