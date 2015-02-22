@@ -1,3 +1,6 @@
 [submodule "CastCompanionLibrary"]
 	path = CastCompanionLibrary
 	url = https://github.com/andrewdavidmackenzie/CastCompanionLibrary-android
+[submodule "receiver"]
+	path = receiver
+	url = https://github.com/Mackenzie-Serres/benchcast-receiver
